@@ -1,8 +1,12 @@
 # LapTrinhNhung
 Kho lưu trữ bài bập thực hành học phần Lập trình nhúng
+
 Giảng viên : Mai Cường Thọ
+
 Sinh viên : Nguyễn Quốc Châu
+
 MSSV : 61130073
+
 
 
 
