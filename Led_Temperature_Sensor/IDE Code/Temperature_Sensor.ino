@@ -1,19 +1,17 @@
+int LedPin =9;                  // Thay đổi cổng chân Led
 void setup()
 {
-  
-  pinMode(10, OUTPUT);
-  Serial.begin(96000);
+         pinMode(LedPin, OUTPUT);
+        Serial.begin(96000);                         // khởi tạo kết nối nối tiếp ở 9600 bit mỗi giây
 }
 
 void loop()
 {
-  int x = analogRead(A0);
-  int t = map ( x , 0 , 410 , -50 , 150);
-  
-  if ( t >=36)
-    digitalWrite(10,HIGH);
-  else
-    digitalWrite(10, LOW);
-  delay(100);
-  
+          int x = analogRead(A0);
+         int t = map ( x , 0 , 410 , -50 , 150);
+        if ( t >=36)                               //Nhiệt độ lớn hơn 36 thì đèn sáng và ngược lại
+             digitalWrite(LedPin,HIGH);
+       else
+            digitalWrite(LedPin, LOW);
+      delay(100);                             // độ trễ đèn sáng
 }

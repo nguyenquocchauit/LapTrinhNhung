@@ -35,11 +35,11 @@ void loop() {
   for ( brightness = 0; brightness <=255; brightness +=5)
   {
     analogWrite(LedPin,brightness);
-    delay(1000);
+    delay(30);
   }
   for ( brightness = 255; brightness <=0; brightness -=5)
   {
     analogWrite(LedPin,brightness);
-    delay(1000);
+    delay(30);
   }
 }
