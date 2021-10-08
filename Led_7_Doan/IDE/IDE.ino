@@ -103,14 +103,24 @@ void CHIN(){
 }
 
 void loop(){
-  //KHONG();
-  //MOT();
-  //HAI();
+  KHONG();
+  delay(1000);
+  MOT();
+  delay(1000);
+  HAI();
+  delay(1000);
   BA();
-  //BON();
-  //NAM();
-  //SAU();
-  //BAY();
-  //TAM();
-  //CHIN();
+  delay(1000);
+  BON();
+  delay(1000);
+  NAM();
+  delay(1000);
+  SAU();
+  delay(1000);
+  BAY();
+  delay(1000);
+  TAM();
+  delay(1000);
+  CHIN();
+  delay(1000);
 }
