@@ -1,4 +1,4 @@
-int LedPin =9;                  // Thay đổi cổng chân Led
+int LedPin =10;                  // Thay đổi cổng chân Led
 void setup()
 {
          pinMode(LedPin, OUTPUT);
