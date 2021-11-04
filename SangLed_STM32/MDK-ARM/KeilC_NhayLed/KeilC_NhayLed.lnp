@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"keilc_nhayled\startup_stm32f401xe.o"
+"keilc_nhayled\main.o"
+"keilc_nhayled\stm32f4xx_it.o"
+"keilc_nhayled\stm32f4xx_hal_msp.o"
+"keilc_nhayled\stm32f4xx_hal_tim.o"
+"keilc_nhayled\stm32f4xx_hal_tim_ex.o"
+"keilc_nhayled\stm32f4xx_hal_rcc.o"
+"keilc_nhayled\stm32f4xx_hal_rcc_ex.o"
+"keilc_nhayled\stm32f4xx_hal_flash.o"
+"keilc_nhayled\stm32f4xx_hal_flash_ex.o"
+"keilc_nhayled\stm32f4xx_hal_flash_ramfunc.o"
+"keilc_nhayled\stm32f4xx_hal_gpio.o"
+"keilc_nhayled\stm32f4xx_hal_dma_ex.o"
+"keilc_nhayled\stm32f4xx_hal_dma.o"
+"keilc_nhayled\stm32f4xx_hal_pwr.o"
+"keilc_nhayled\stm32f4xx_hal_pwr_ex.o"
+"keilc_nhayled\stm32f4xx_hal_cortex.o"
+"keilc_nhayled\stm32f4xx_hal.o"
+"keilc_nhayled\stm32f4xx_hal_exti.o"
+"keilc_nhayled\system_stm32f4xx.o"
+--strict --scatter "KeilC_NhayLed\KeilC_NhayLed.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "KeilC_NhayLed.map" -o KeilC_NhayLed\KeilC_NhayLed.axf

@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"keilc_ledtraitim\startup_stm32f401xe.o"
+"keilc_ledtraitim\main.o"
+"keilc_ledtraitim\stm32f4xx_it.o"
+"keilc_ledtraitim\stm32f4xx_hal_msp.o"
+"keilc_ledtraitim\stm32f4xx_hal_tim.o"
+"keilc_ledtraitim\stm32f4xx_hal_tim_ex.o"
+"keilc_ledtraitim\stm32f4xx_hal_rcc.o"
+"keilc_ledtraitim\stm32f4xx_hal_rcc_ex.o"
+"keilc_ledtraitim\stm32f4xx_hal_flash.o"
+"keilc_ledtraitim\stm32f4xx_hal_flash_ex.o"
+"keilc_ledtraitim\stm32f4xx_hal_flash_ramfunc.o"
+"keilc_ledtraitim\stm32f4xx_hal_gpio.o"
+"keilc_ledtraitim\stm32f4xx_hal_dma_ex.o"
+"keilc_ledtraitim\stm32f4xx_hal_dma.o"
+"keilc_ledtraitim\stm32f4xx_hal_pwr.o"
+"keilc_ledtraitim\stm32f4xx_hal_pwr_ex.o"
+"keilc_ledtraitim\stm32f4xx_hal_cortex.o"
+"keilc_ledtraitim\stm32f4xx_hal.o"
+"keilc_ledtraitim\stm32f4xx_hal_exti.o"
+"keilc_ledtraitim\system_stm32f4xx.o"
+--strict --scatter "KeilC_LedTraiTim\KeilC_LedTraiTim.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "KeilC_LedTraiTim.map" -o KeilC_LedTraiTim\KeilC_LedTraiTim.axf
