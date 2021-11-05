@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"nutbamkeilc\startup_stm32f401xe.o"
+"nutbamkeilc\main.o"
+"nutbamkeilc\stm32f4xx_it.o"
+"nutbamkeilc\stm32f4xx_hal_msp.o"
+"nutbamkeilc\stm32f4xx_hal_tim.o"
+"nutbamkeilc\stm32f4xx_hal_tim_ex.o"
+"nutbamkeilc\stm32f4xx_hal_rcc.o"
+"nutbamkeilc\stm32f4xx_hal_rcc_ex.o"
+"nutbamkeilc\stm32f4xx_hal_flash.o"
+"nutbamkeilc\stm32f4xx_hal_flash_ex.o"
+"nutbamkeilc\stm32f4xx_hal_flash_ramfunc.o"
+"nutbamkeilc\stm32f4xx_hal_gpio.o"
+"nutbamkeilc\stm32f4xx_hal_dma_ex.o"
+"nutbamkeilc\stm32f4xx_hal_dma.o"
+"nutbamkeilc\stm32f4xx_hal_pwr.o"
+"nutbamkeilc\stm32f4xx_hal_pwr_ex.o"
+"nutbamkeilc\stm32f4xx_hal_cortex.o"
+"nutbamkeilc\stm32f4xx_hal.o"
+"nutbamkeilc\stm32f4xx_hal_exti.o"
+"nutbamkeilc\system_stm32f4xx.o"
+--strict --scatter "NutBamKeiLC\NutBamKeiLC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NutBamKeiLC.map" -o NutBamKeiLC\NutBamKeiLC.axf
